@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import Header from "./components/header";
 import { Balance } from "./components/balance";
 import { IncomeExpenses } from "./components/incomeexpenses";
+import { Transaction } from "./components/transaction";
 import "./components/css/app.css";
 export default function App() {
   return (
@@ -12,6 +13,8 @@ export default function App() {
       <Balance />
       <br></br>
       <IncomeExpenses />
+      <br></br>
+      <Transaction />
     </div>
   );
 }
