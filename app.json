@@ -23,6 +23,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dd8d37b3-18ab-4748-a887-496454de8e9e"
+      }
+    },
+    "owner": "labib1211"
   }
 }
